@@ -3,15 +3,14 @@ services:
     build: .
     container_name: amazon-depo-bot
     restart: unless-stopped
-    env_file:
-      - .env
     volumes:
-      # Veritabanının konteyner veya repo güncellemelerinde kaybolmaması için
-      - ./data:/app/data
-      - ./proxies.txt:/app/proxies.txt
-      - ./categories.txt:/app/categories.txt
+      # Veritabanının konteyner veya repo güncellemelerinde kaybolmaması için Docker Named Volume
+      - amazon-data:/app/data
     logging:
       driver: "json-file"
       options:
         max-size: "10m"
         max-file: "3"
+
+volumes:
+  amazon-data:
