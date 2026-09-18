@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# Veritabanı ve Yerel Veriler
+data/*.db
+data/*.sqlite3
+
+# Sistem
+.DS_Store
+Thumbs.db
+*.log
+
+# Ortam Değişkenleri (GitHub Secret Scanner'ın tokenı iptal etmesini önlemek için)
+.env

@@ -1,0 +1,23 @@
+# ==============================================================================
+# AMAZON DEPO ÖZEL KATEGORİ & ARAMA LİSTESİ (categories.txt)
+# ==============================================================================
+# Buraya satır satır taramak istediğiniz Amazon Depo linklerini ekleyebilirsiniz.
+# '#' ile başlayan satırlar yorum olarak kabul edilir ve atlanır.
+# Boş bırakılırsa bot varsayılan genel Amazon Depo sayfalarını tarar.
+# ==============================================================================
+
+# 1. Amazon Depo - Apple Cep Telefonları (iPhone Resmi Kategori)
+https://www.amazon.com.tr/s?i=electronics&srs=44219324031&bbn=44219324031&rh=n%3A13709907031%2Cp_123%3A110955&dc&ds=v1%3AAYw3CPJe5FzH%2F22jD4mUWUD4a%2FHtZ0aVpxjZ9KabMKY&qid=1789696882&rnid=91049075031&ref=sr_nr_p_123_1
+
+# 2. Amazon Depo - iPhone Arama Sonuçları (Yeniler)
+https://www.amazon.com.tr/s?k=iphone&i=warehouse-deals&srs=44219324031&s=date-desc-rank
+
+# 3. Amazon Depo - Samsung Ürünleri (Telefon & Aksesuar)
+https://www.amazon.com.tr/s?k=samsung&i=warehouse-deals&srs=44219324031
+
+# 4. Amazon Depo - Genel Cep Telefonları Kategorisi
+https://www.amazon.com.tr/s?i=warehouse-deals&srs=44219324031&rh=n%3A13709880031&s=date-desc-rank
+
+# 5. Amazon Depo - En Son Eklenen Tüm Fırsatlar (Genel)
+https://www.amazon.com.tr/s?i=warehouse-deals&srs=44219324031&s=date-desc-rank
+
